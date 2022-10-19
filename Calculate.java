@@ -10,6 +10,7 @@ public final class Calculate {
         calculator.registerOperation("-", (a, b) -> a - b);
         calculator.registerOperation("/", (a, b) -> a / b);
         calculator.registerOperation("*", (a, b) -> a * b);
+        calculator.registerOperation("^", (a, b) -> a ^ b);
 
         int a = Integer.parseInt(args[0]);
         String operator = args[1];
